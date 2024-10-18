@@ -4,7 +4,7 @@ let changeGreen = document.querySelector("#green")
 let changeBlue = document.querySelector("#blue");
 
 
-//method to send the values to the css
+//method to send change the color of the backgroung
 function changingBackgroud(){
     //saving the values in variables
     let redValue = changeRed.value;
