@@ -4,9 +4,6 @@ let changeGreen = document.querySelector("#green")
 let changeBlue = document.querySelector("#blue");
 
 
-
-
-
 //method to send the values to the css
 function changingBackgroud(){
     //saving the values in variables
@@ -21,3 +18,5 @@ function changingBackgroud(){
 }
 
 changeRed.addEventListener('input',changingBackgroud);
+changeGreen.addEventListener('input',changingBackgroud);
+changeBlue.addEventListener('input',changingBackgroud);
